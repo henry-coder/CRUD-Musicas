@@ -1,0 +1,21 @@
+create database playlist;
+use playlist;
+create table musicas(
+id int primary key auto_increment,
+titulo varchar(200) not null,
+genero varchar(100) not null,
+artista varchar(100) not null,
+album varchar(100) not null,
+lancamento varchar(500) not null);
+
+insert into musicas values
+(1,'Folgado','Sertanejo','Marília Mendonça','Marília Mendonça - Ao Vivo','2015'),
+(2,'Saber Quem Sou','POP','Any Gabrielly','Moana','2017'),
+(3,'Pintinho Amarelinho','Infantil','Galinha Pintadinha','Galinha Pintinha 2','2010'),
+(4,'Chama Ela','Funk','Lexa feat. Pedro Sampaio','KondZilla2019','2019'),
+(5,'November Rain','Rock','Guns N` Roses','Appetite for Destruction','1991'),
+(6,'This is America','Trap','Childish Gambino','RCA2018','2018'),
+(7,'Gangnam Style','KPOP','PSY','Psy 6(Six Rules)','2012'),
+(8,'Aquele 1%','Forró','Marcos & Belutti part. Wesley Safadão,','Duetos','2015'),
+(9,'Deixa Acontecer','Samba','Grupo Revelação','Nosso Samba Virou Religião','2010'),
+(10,'Quem de Nós Dois','MPB','Ana Carolina','Ana Rita Joana Iracema e Carolina','2012');

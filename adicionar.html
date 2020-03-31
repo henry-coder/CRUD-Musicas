@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ADICIONAR MÚSICA</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+			<form method="POST" action="adicionar.php" >
+				<div>
+				<fieldset id="adicionar">
+				<center>
+				<input type="text" name="titulo" id="titulo" required placeholder="Título"><br><br>
+				<input type="text" name="genero" required id="genero" placeholder="Gênero"><br><br>
+				<input type="text" name="artista" id="artista" required placeholder="Artísta/Banda"><br><br>
+				<input type="text" name="album" required id="album" placeholder="Albúm"><br><br>
+				<input type="text" name="lancamento" required id="lancamento" placeholder="Ano de Lançamento"><br>
+				<input type="reset" value="Limpar" id="limpar" name="limpar">
+				<input type="submit" value="Adicionar" id="adicionar" name="cadastrar">
+				</center>
+				</fieldset>
+				</div>
+        	</form>
+	</body>
+</html>

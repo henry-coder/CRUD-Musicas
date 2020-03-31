@@ -1,0 +1,127 @@
+body{
+	margin-top:100px;
+ 	font-family: sans-serif;
+    background-image: linear-gradient(rgb(0,255,127),rgb(46,139,87));
+	color:white;
+	cursor: url('img/nota.cur'),default;
+}
+#main-area{
+	margin:24px 0px 25px 0px;
+}
+#main-banner{
+	height: auto;
+	width:1366px;
+	background: #111111;
+	padding: 0px;
+	float: none;
+	margin: -8px 0px 0px -8px;
+	color:white;
+	font-size:25px;
+	text-align: center;
+	font-family: Arial;
+}
+input#lancamento,input#album,input#artista,input#genero,input#titulo,input#codigo{
+	width: 200px;
+	border-color: green;
+	background-color: #111111;
+	color:white;
+	border-radius: 15px;
+	font-size: 22px;
+	text-align: center;
+	transition: 0.25s;
+}
+input#codigo:focus,input#titulo:focus,input#genero:focus,input#artista:focus,input#album:focus,input#lancamento:focus{
+	border-color: black;
+	background-color: green;
+	color:white;
+	text-align: center;
+	width: 400px;
+	transition: 0.25s;
+}
+input#limpar,input#adicionar,input#alterar,input#remover{
+	margin: 20px 0px 0px 10px;
+ 	background-color: #111111;
+ 	text-align: center;
+	border: 2px solid #111111;
+  	padding: 10px 36px;
+  	color: white;
+	border-radius: 15px;
+	font-size: 24px;
+	cursor: pointer;
+}
+input#limpar:hover,input#adicionar:hover,input#alterar:hover,input#remover:hover{
+	background-color:lawngreen;
+}
+fieldset#remover{ 
+	border: none;
+    background-color: black;
+    width:550px;
+    height: 150px;
+	padding: 25px 0px 0px 15px;
+	margin: 240px 0px 240px 385px;
+	border-radius: 0pc 25px;
+}
+fieldset#adicionar{ 
+	border: none;
+    background-color: black;
+    width:550px;
+    height: 400px;
+	padding: 50px 0px 0px 15px;
+	margin: 102px 0px 103px 385px;
+	border-radius: 0px 25px;
+	cursor: url('img/clave.cur'),default;
+}
+fieldset#alterar{
+    border: none;
+    background-color: black;
+    width:550px;
+    height: 400px;
+	padding: 50px 0px 0px 15px;
+	margin: 103px 0px 102px 385px;
+	border-radius: 0px 25px;
+}
+a{
+	color:aliceblue;
+}
+table.menu{
+	background-color: #111111;
+	margin-top: -100px;
+}
+td.main:hover{
+	background-color: lawngreen;
+	border-color: white;
+	color:black;
+	border-radius: 20px;
+}
+table.consulta{
+	color:lawngreen;
+	font-size: 16px;
+	background-color: black;
+	border-radius: 10px;
+}
+th.consult{
+	color:aliceblue;
+	font-size: 20px;
+	border-radius: 10px;
+}
+td.cons{
+	text-align: center;
+	border-radius: 10px;
+}
+td.cons:hover{
+	background-color: lawngreen;
+	color:black;
+}
+td.codigos{
+	color:darkgoldenrod;
+	border-radius:10px;
+}
+.msg1{
+		margin:auto;
+		width:50%;
+		border:5px solid white;
+		color:white;
+	}
+.padding20{
+		padding:20px;
+	}
